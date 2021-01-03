@@ -1,0 +1,91 @@
+
+body{
+
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0px;
+}
+
+h1{
+    font-size: 50px;
+
+}
+.highlight{
+    color: chocolate;
+}
+.first{
+    width: 45%;
+    float: left;
+    margin left: 5%;
+    padding-left: 2%;
+}
+.first img{
+    width: 100%;
+}
+.top-banner{
+   
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 700px;
+    padding-bottom: 150px;
+}
+.link{
+    text-decoration: none;
+    background-color: darkorange;
+    background-image: linear-gradient  ( 45deg, rgb(221, 124, 94), red);
+    padding: 8Px 16px;
+    color: rgb(216, 212, 209);
+   
+    border-radius: 6px;
+}
+.second img{
+    width: 100%;
+}
+.second{
+    width: 40%;
+    float: left;
+    margin left: 5%;
+    padding-left: 2%;
+}
+.second-banner{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.hard{
+    text-align: center;
+    color: darkviolet;
+    
+}
+.half-dev{
+    width: 42%;
+    float: right;
+    margin left: 5%;
+    padding-left: 5%;
+}
+.single-page{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 50%;
+    
+}
+.experience{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#cl{
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg, lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#cl1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,  blue ,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
