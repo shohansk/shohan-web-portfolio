@@ -43,10 +43,11 @@ section{
     width: 100%;
 }
 .second{
-    width: 40%;
+    width: 45%;
     float: left;
-    margin left: 5%;
+    margin left: 10%;
     padding-left: 2%;
+    display: inline-block;
 }
 .second-banner{
     background-image: url(images/dream-bg.png);
@@ -58,16 +59,17 @@ section{
     color: darkviolet;
     
 }
-.half-dev{
-    width: 42%;
-    float: right;
-    margin left: 5%;
-    padding-left: 5%;
+.half{
+    width: 30%;
+    display: inline-block;
+    margin: 2%;
+    
 }
 .single-page{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
-    height: 50%;
+    width: 40%;
+    margin left: 5%;
     
 }
 .experience{
@@ -79,11 +81,15 @@ section{
     border-left: 7px solid;
     border-image: linear-gradient( 180deg, lightSalmon,tomato);
     border-image-slice: 1;
+    
+    width: 40%;
 }
 #cl1{
     border-left: 7px solid;
     border-image: linear-gradient(180deg,  blue ,cyan);
     border-image-slice: 1;
+    width: 40%;
+  
 }
 footer p{
     text-align: center;
