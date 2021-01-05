@@ -3,6 +3,7 @@ body{
 
     font-family: 'Noto Sans JP', sans-serif;
     margin: 0px;
+    
 }
 
 h1{
@@ -23,7 +24,7 @@ h1{
 }
 .top-banner{
    
-    background-image: url(top-banner.png);
+    background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
 section{
@@ -74,8 +75,9 @@ section{
 }
 .experience{
     background-image: url(images/exp-bg.png);
+    
     background-repeat: no-repeat;
-    background-position: left;
+    
 }
 #cl{
     border-left: 7px solid;
@@ -94,4 +96,14 @@ section{
 footer p{
     text-align: center;
     font-size: 12px;
+}
+.lets-talk{
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+#one{
+    color: coral;
+    text-align: center;
 }
